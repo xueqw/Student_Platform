@@ -14,7 +14,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     int x = 0;
     int y = 0;
     //    记录空白方块在二维数组中的位置
-    String path = "C:\\Users\\24682\\IdeaProjects\\Homework\\Presentation\\src\\Puzzle\\images\\";
+    String path = "src\\Puzzle\\images\\";
 
     int step = 0;
 
@@ -85,7 +85,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
                 jLable.setBorder(new BevelBorder(0));
             }
         }
-        JLabel background = new JLabel(new ImageIcon("C:\\Users\\24682\\IdeaProjects\\Homework\\Presentation\\src\\Puzzle\\images\\画板 1.gif"));
+        JLabel background = new JLabel(new ImageIcon("src\\Puzzle\\images\\画板 1.gif"));
         background.setBounds(35, -10, 500, 600);
         this.getContentPane().add(background);
 
